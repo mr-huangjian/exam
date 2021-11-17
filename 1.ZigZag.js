@@ -2,12 +2,6 @@
 
 /*
 
-32位
-return ((uint32_t)value << 1) ^ (value >> 31);
-
-64位
-return ((uint64_t)value << 1) ^ (value >> 63);
-
 【问题一】
 
 https://www.jianshu.com/p/5da21a95cb1e
@@ -23,6 +17,7 @@ Varint编码后的二进制形式为 ______???______
 Number("888").toString(2) = 11 0111 1000
  */
 
+// https://www.cnblogs.com/billmiao/p/9872160.html
 // 666： 1010011010      1001 1010 0000 0101
 // 888： 1101111000      1111 1000 0000 0110
 
