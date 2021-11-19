@@ -41,7 +41,7 @@ function decodeZigZag(hex) {
 
     // 负数
     if (symbol == 1) {
-        return (~(((~radix10) >> 1) - 1))
+        return -(~(((~radix10) >> 1) - 1))
     }
 }
 
